@@ -1,6 +1,6 @@
 ### Hi there 👋 Welcome 
 
-Click [here]() to generate ##shapes in my factory.
+Click [here](https://nathanshuai.github.io/Shape-factory/) to generate shapes in my factory.
 
 <br />
 

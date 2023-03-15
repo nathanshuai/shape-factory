@@ -1,0 +1,139 @@
+@import url(./reset.css);
+
+:root {
+  --app-dark-bg: #1a1d28;
+  --app-green: #33ab4e;
+  --app-purple: #833cff;
+  --app-orange: #ff833c;
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-red: #ff3c57;
+  --app-red-hover: #ff2846;
+  --app-white:#fff;
+  --app-gray:#575555;
+  --app-pink:#f09;
+}
+
+body {
+  background-color: var(--app-dark-bg);
+}
+
+/* clock
+*/
+
+.center {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: #f3dfdf;
+}
+
+form {
+  color: var(--app-white); 
+  padding: 10px, 5px;
+}
+
+
+/*form */
+
+select {
+  margin-top: 20px;
+  text-decoration: none;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 26px 30px -10px;
+  transition:  all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+label {
+  font-size: 20px;
+  padding: 5px;
+}
+
+button  {
+  margin-left: 20px;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 800;
+  transition:  all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.create {
+  background-color: #33ab4e;
+}
+
+.create:hover {
+  background-color: #086e20;
+}
+
+
+/*box
+*/
+
+.box {
+  height: 580px;
+  margin-top: 16px;
+  background-color: rgb(5 0 0 / 0.4);
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  padding: 10px;
+  transform: rotateX(180deg);
+}
+
+.circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+.orange {
+  background-color: var(--app-orange);
+}
+
+.green {
+  background-color: var(--app-green);
+}
+
+.blue {
+  background-color: var(--app-blue);
+}
+
+.pink {
+  background-color: var(--app-pink);
+}
+
+.purple {
+  background-color: var(--app-purple);
+}
+
+/*output
+*/
+
+.output {
+  color: #f3dfdf;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px;
+  padding: 10px,5px;
+  border-radius: 70px;
+  font-size: 16px;
+}
